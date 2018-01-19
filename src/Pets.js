@@ -4,10 +4,10 @@ class Pets extends Component {
   render() {
     return (
       <div className="Pets">
-      	<ol>
+      	<ul className="animals">
       		<li>Snicklefritz the Cat</li>
       		<li>Pickles the Bunny</li>
-      	</ol>
+      	</ul>
       </div>
     );
   }
