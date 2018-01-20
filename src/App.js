@@ -19,11 +19,11 @@ class App extends Component {
     return (
       <Router>
       <div className="App">
-        <Link to="/">Home</Link>
-        <Link to="/blog">Blog</Link>
-        <Link to="/contact">Contact</Link>
-        <Link to="/favorites">Favorites</Link>
-        <Link to="/pets">Pets</Link>
+        <Link to="/">Home</Link>{' '}
+        <Link to="/blog">Blog</Link>{' '}
+        <Link to="/contact">Contact</Link>{' '}
+        <Link to="/favorites">Favorites</Link>{' '}
+        <Link to="/pets">Pets</Link>{' '}
 
         <Route exact path="/" component={Home} />
         <Route path="/blog" component={Blog} />
